@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kite Canada</title>
+	<link rel="icon" href="img/logo_360x.png">
+	<link rel="stylesheet" type="text/css" href=css/bootstrap.css>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="https://kit.fontawesome.com/354f6fe206.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header>
+<div class="announcementBar">
+	<p class="announcement-bar__message">Free Shipping on all orders over $99.00</p>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="catalog.html">Catalog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQ</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>
+
+<div id="faq">
+	<div>
+		<h1>Frequently asked Questions.</h1>
+		<h6 onclick="faqAnswerDisplay('1')"><span id="faq1Q"><i class='fas fa-caret-right'></span></i>  Do you offer free shipping?</h6>
+		<p id="faq1A" class="faqHide">Yes! We offer free shipping on all orders over $99. Orders below $99 are charged $15 flat rate for shipping. All orders are shipped expressed and come with a tracking number.</p>
+
+		<h6 onclick="faqAnswerDisplay('2')"><span id="faq2Q"><i class='fas fa-caret-right'></span></i>  How do I pay?</h6>
+		<p id="faq2A" class="faqHide">At this time we accept Interac e-Transfers from Canadian banks. We are working on providing credit card processing in the near future. If you need more information on sending an Email Money Transfer, check Interac help page. If you still need help we would be happy to help you with the process. <br>
+		You will receive instructions after completing your order on how to complete this step. <br>
+		We do not accept PayPal unfortunately or credit cards at the moment.</p>
+
+		<h6 onclick="faqAnswerDisplay('3')"><span id="faq3Q"><i class='fas fa-caret-right'></span></i>  Where do you ship?</h6>
+		<p id="faq3A" class="faqHide">We only ship within Canada.</p>
+
+		<h6 onclick="faqAnswerDisplay('4')"><span id="faq4Q"><i class='fas fa-caret-right'></span></i>  How does shipping work?</h6>
+		<p id="faq4A" class="faqHide">We send all of our packages through canada post express and you should receive it within 1-3 business days of placing your order. You will receive a notification and tracking number once the order has been processed. Your package will be packaged in a professional and discreet manner and you will not be able to see inside.</p>
+
+	</div>
+</div>
+
+
+
+</body>
+
+<footer>
+	<div class="">
+      <input type="email" name="contact[email]" id="emailInput" class="emailInput" value="" placeholder="Email address" aria-label="Email address" aria-required="true" required="" autocorrect="off" autocapitalize="off">
+       <button type="submit" class="clickHere" name="commit">
+       <span style="font-weight: bold;" >SUBSCRIBE</span>
+       </button>
+    </div>
+</footer>
+
+
+<script src=js/jquery.js></script>
+<script src=js/bootstrap.js></script>
+<script src=js/script.js> </script>
+
+</html>
